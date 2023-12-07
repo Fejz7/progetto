@@ -15,9 +15,13 @@ const formReference = document.getElementsByTagName('form')[0]
 formReference.addEventListener('submit', function (e) {
   e.preventDefault()})
 
-  let numbers = function () {
-      for (let i = 1; i < 91; i++) {
-        numbers = Math.floor(Math.random(1) * 90)
+//   let numbers = function () {
+//       for (let i = 1; i < 91; i++) {
+//         numbers = Math.floor(Math.random(1) * 90)
         
+const numbers = function() {
+    for (let i = 1; i < 91; i++) {
+      const extracted = Math.floor(Math.random() * 90 + 1)
     }
   }
+   console.log(extracted)
